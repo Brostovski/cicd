@@ -19,6 +19,6 @@ jobs:
         script: |
           mkdir VladBrostovski
           cd VladBrostovski
-          touch test.py
+          touch script.sh
           git clone https://github.com/Brostovski/cicd.git
           echo 'Deployment successful to digital ocean1'
